@@ -40,16 +40,7 @@ void PrintStacks()
   //bottom
   cout << "__________________________" << endl << endl;
 }
-/*
-funktion bewege (Zahl i, Stab a, Stab b, Stab c) {
-    falls (i > 0) {
-           bewege(i-1, a, c, b);
-                  verschiebe oberste Scheibe von a nach c;
-                         bewege(i-1, b, a, c);
-                             }
-                             }
 
-*/
 void Move(bool* myStack1, bool* myStack2, bool* myStack3, int cnt, int from, int to)
 {
   //move the first cnt slides from stack1 to stack3
